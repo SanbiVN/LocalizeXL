@@ -26,3 +26,7 @@ In the Ribbon tab 'Deverloper' choose Excel Add-ins, Choose button 'Browse...' -
 
 # SCAN VIRUS
 https://www.virustotal.com/gui/
+
+# Donation
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/heissanbi)
