@@ -15,12 +15,9 @@ Reset Add-in |	=LocalizeReset() |
 Close Add-in |	=LocalizeQuit()	|
 Uninstall Add-in |	=LocalizeUninstall()	|
 
-
-![image](https://user-images.githubusercontent.com/58664571/110069954-88076e00-7dab-11eb-9102-aff2eac41675.png)
-
 # Example
 
-![LocalizeXL](http://url/to/img.png)
+![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
 
 # SCAN VIRUS
 https://www.virustotal.com/gui/
