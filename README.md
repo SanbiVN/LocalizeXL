@@ -1,5 +1,6 @@
 # LocalizeXL
-Highlights the orientation of the selected cell in Excel Worksheet.
+Highlights the orientation of the selected cell in Excel Worksheet (Window  Only).
+
 
 ### Execute commands in an Excel application using functions:
 Execute | Fx | argument
