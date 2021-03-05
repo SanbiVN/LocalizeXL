@@ -27,7 +27,7 @@ Uninstall Add-in |	=LocalizeUninstall()	|
 3. Add developer tab to ribbon
 
 ## Install Add-in
-1. Open Excel, and on the Ribbon, click the Developer tab (if it's missing, follow these instructions to show it)
+1. Open Excel, and on the Ribbon, click the Developer tab
 2. Click the Add-ins button.
 
 ![ribbontabmacros](https://user-images.githubusercontent.com/58664571/110081583-b773a600-7dbe-11eb-81f4-8958c2999e31.png)
