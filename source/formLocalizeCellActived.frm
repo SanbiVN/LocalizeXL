@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} formLocalizeCellActived 
    Caption         =   "LocalizeCellActived"
-   ClientHeight    =   5070
+   ClientHeight    =   3165
    ClientLeft      =   45
-   ClientTop       =   375
-   ClientWidth     =   6255
+   ClientTop       =   390
+   ClientWidth     =   4710
    OleObjectBlob   =   "formLocalizeCellActived.frx":0000
    ShowModal       =   0   'False
 End
@@ -58,7 +58,7 @@ End Sub
 
 
 Private Sub UserForm_Initialize()
-  Me.Caption = "LocalizeCellActived"
+  Me.Caption = "LocalizeCellActived" & Format(VBA.Now, "yyyymmddhhmmss")
   Dim b As Boolean
   Set App = Application
   nVer = Val(App.Version) > 14
@@ -91,9 +91,9 @@ Function NewHandle() As Boolean
   Else
     hMain.Long = App.hwnd
     hXLD.Long = FindWindowEx(hMain.Long, 0&, "XLDESK", vbNullString)
+      Set AW = ActiveWindow
     th.Long = FindWindowEx(hXLD.Long, 0&, "EXCEL7", AW.Caption)
     If th.Long <> hXL7.Long Then
-      Set AW = ActiveWindow
       hXL7.Long = th.Long
       NewHandle = True
     End If
@@ -367,6 +367,8 @@ Private Sub UserForm_Terminate()
   Set RV = Nothing
   Set RH = Nothing
 End Sub
+
+
 
 
 
