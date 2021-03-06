@@ -1,12 +1,12 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} formLocalizeCellActived 
    Caption         =   "LocalizeCellActived"
-   ClientHeight    =   3015
-   ClientLeft      =   120
-   ClientTop       =   465
-   ClientWidth     =   4560
+   ClientHeight    =   5070
+   ClientLeft      =   45
+   ClientTop       =   375
+   ClientWidth     =   6255
    OleObjectBlob   =   "formLocalizeCellActived.frx":0000
-   StartUpPosition =   1  'CenterOwner
+   ShowModal       =   0   'False
 End
 Attribute VB_Name = "formLocalizeCellActived"
 Attribute VB_GlobalNameSpace = False
@@ -367,6 +367,8 @@ Private Sub UserForm_Terminate()
   Set RV = Nothing
   Set RH = Nothing
 End Sub
+
+
 
 
 
