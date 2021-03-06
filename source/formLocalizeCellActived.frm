@@ -85,7 +85,7 @@ Function NewHandle() As Boolean
       Set AW = ActiveWindow
       hMain.Long = th.Long
       hXLD.Long = FindWindowEx(th.Long, 0&, "XLDESK", vbNullString)
-      hXL7.Long = FindWindowEx(hXLD.Long, 0&, "EXCEL7", AW.Caption)
+      hXL7.Long = FindWindowEx(hXLD.Long, 0&, "EXCEL7", vbNullString)
       NewHandle = True
     End If
   Else
