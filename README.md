@@ -39,6 +39,10 @@ install the Add-in
 
 4. Click OK, to close the Add-ins window.
 
+# NOTE
+If your project has real-time working Macros VBA, then turn off LocalizeXL, to avoid collisions, by typing in the empty cell function =LocalizeOff()
+
+
 # EXAMPLE
 
 ![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
