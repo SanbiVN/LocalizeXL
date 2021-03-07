@@ -22,7 +22,7 @@ Private Enum EnumDirective
 End Enum
 
 Private Sub App_SheetSelectionChange(ByVal Sh As Object, ByVal Target As Range)
-  If Target.Rows.Count > 20 Or Target.Columns.Count > 10 Then
+  If Target.Rows.Count >= Sh.Rows.Count Or Target.Columns.Count >= Sh.Columns.Count Then
     LocalizeController ActiveWindow.Caption, Sh.Parent, Wnd, EDHide
   Else
     LocalizeController ActiveWindow.Caption, Sh.Parent, Wnd, EDShow
@@ -34,7 +34,6 @@ Private Sub App_WindowDeactivate(ByVal Wb As Workbook, ByVal Wn As Window)
 End Sub
 
 Private Sub App_WindowActivate(ByVal Wb As Workbook, ByVal Wn As Window)
-  Debug.Print "App_WindowActivate"
   LocalizeController Wn.Caption, Wb, Wnd, EDShow
 End Sub
 
@@ -46,7 +45,6 @@ Private Sub App_WindowResize(ByVal Wb As Workbook, ByVal Wn As Window)
 End Sub
 
 Private Sub App_WorkbookBeforeClose(ByVal Wb As Workbook, Cancel As Boolean)
-  Debug.Print "App_WorkbookBeforeClose:"; Wb.Name
   LocalizeController ActiveWindow.Caption, ActiveWorkbook, Wnd, EDUnload
 End Sub
 
@@ -60,7 +58,6 @@ Sub init()
 End Sub
 
 Private Sub Class_Terminate()
-  Debug.Print "Class_Terminate"
   On Error Resume Next
   Dim a, o As Object, i%
    i = Contain.Count
@@ -83,8 +80,7 @@ End Sub
 Function Finally(timeout As Long) As Boolean
   If Not Wnd Is Nothing Then
     If Not Wnd.Blurred(timeout) Or Not Wnd.SetPosition _
-    Or timeout > MaxTimeout _
-    Or App.hwnd <> GetForegroundWindow() Then
+    Or timeout > MaxTimeout Then
       Wnd.HideNow
       Finally = True
     End If
@@ -115,4 +111,6 @@ Private Sub LocalizeController(Key$, Wb As Object, Wnd As Object, Directive%)
     End Select
   End If
 End Sub
+
+
 

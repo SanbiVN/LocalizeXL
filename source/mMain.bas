@@ -1,7 +1,7 @@
 Attribute VB_Name = "mMain"
 Option Explicit
 Option Compare Text
-
+Public Const testting As Boolean = True
 
 Public Type Var64
 #If Win64 Then
@@ -17,17 +17,7 @@ Y As Long
 End Type
 
 Public Type RECT6
-  WindowState As Long
-  Areas(1 To 4) As String
   XY(3) As POINTAPI
-  Left As Long
-  Top As Long
-  Width As Long
-  Height As Long
-  marginLeft As Long
-  marginTop As Long
-  marginRight As Long
-  marginBottom As Long
 End Type
 
 Public Type RECT
@@ -289,7 +279,7 @@ End Sub
 
 
 Public Sub LocalizeRuntimeCall()
-  HCSTimeout = 150
+  HCSTimeout = 50
   
   LocalizeRuntime
 End Sub
@@ -466,4 +456,6 @@ End Function
 Function Pixels2Points(ByVal PIXELS&, Optional bVertical As Boolean)
   Pixels2Points = PIXELS * 72 / ScreenDPI(bVertical)
 End Function
+
+
 
