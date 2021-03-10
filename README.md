@@ -1,6 +1,9 @@
 # LocalizeXL
 Highlights the orientation of the selected cell in Excel Worksheet (Window  Only).
 
+# EXAMPLE
+
+![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
 
 ### Execute commands in an Excel application using functions:
 Execute | Fx | argument
@@ -41,11 +44,6 @@ install the Add-in
 
 # NOTE
 If your project has real-time working Macros VBA, then turn off LocalizeXL, to avoid collisions, by typing in the empty cell function =LocalizeOff()
-
-
-# EXAMPLE
-
-![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
 
 # SCAN VIRUS
 https://www.virustotal.com/gui/
