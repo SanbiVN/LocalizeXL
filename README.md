@@ -51,6 +51,3 @@ If your project has real-time working Macros VBA, then turn off LocalizeXL, to a
 # SCAN VIRUS
 https://www.virustotal.com/gui/
 
-# Donation
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/heissanbi)
