@@ -5,6 +5,8 @@ Highlights the orientation of the selected cell in Excel Worksheet (Window  Only
 
 ![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
 
+![LocalizeXL](https://github.com/SanbiVN/LocalizeXL/blob/main/test/vba%20localize%20style.gif)
+
 ### Execute commands in an Excel application using functions:
 
 Execute | Fx | argument
