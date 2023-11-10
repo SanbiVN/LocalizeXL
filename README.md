@@ -1,6 +1,9 @@
 # LocalizeXL
 Highlights the orientation of the selected cell in Excel Worksheet (Window  Only).
 
+[![Tổng tải xuống](https://img.shields.io/github/downloads/SanbiVN/LocalizeXL/total.svg)]()
+
+
 # EXAMPLE
 
 ![LocalizeXL](https://user-images.githubusercontent.com/58664571/110070199-082dd380-7dac-11eb-8b9e-06707ddad1b8.gif)
