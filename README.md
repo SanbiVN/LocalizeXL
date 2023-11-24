@@ -1,4 +1,4 @@
-# LocalizeXL
+# LocalizeXL - Add-in Excel
 Highlights the orientation of the selected cell in Excel Worksheet (Window  Only).
 
 [Nhấn tải LocalizeXL v1.71](https://github.com/SanbiVN/LocalizeXL/releases/download/localize_xl/LocalizeXL-v1.71.zip)
