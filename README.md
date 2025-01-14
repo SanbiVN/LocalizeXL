@@ -1,7 +1,7 @@
 # LocalizeXL - Add-in Excel
 Highlights the orientation of the selected cell in Excel Worksheet (Window  Only).
 
-[Nhấn tải LocalizeXL v1.71](https://github.com/SanbiVN/LocalizeXL/releases/download/localize_xl/LocalizeXL-v1.71.zip)
+[Nhấn tải LocalizeXL](https://github.com/SanbiVN/LocalizeXL/releases/download/localize_xl/LocalizeXL_v1.72.zip) 
 [![Tổng tải xuống](https://img.shields.io/github/downloads/SanbiVN/LocalizeXL/total.svg)]()
 
 *** Mật khẩu vào mã VBA là 1
