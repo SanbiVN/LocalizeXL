@@ -18,18 +18,18 @@ Lưu ý: Sau khi tải về cần bỏ Unlock tệp xlam trước khi cài đặ
 
 Execute | Fx | argument
 ---|---|---
-On |	=LocalizeOn()	|
-Off | =LocalizeOff() |
-| Change Color | =LocalizeSetColor("#FCD220") | Hexadecimal Number
-|  | =LocalizeSetColor(255)	| Color Number
-|  | =LocalizeSetColor("yellow")	| Name color (yellow/ye/yl, red/re, blue, green/gr, cyan/cy, magenta/ma, white/wh/wi, black/bl/bk, orange/or, pink, purple/pu, silver/si, violet/vi, Brown/br, Beige/be)
-Change Opacity | =LocalizeSetOpacity(40)	| <Number 20~255>
-On/Off Fading |	=LocalizeSetFading(400) |	<miliseconds 0~4000>
-Change All |	=LocalizeSet(16711680, 40, True)	| <Color, Opacity, Fading>
-Change Add-in or Book |	=LocalizeSpin() |
-Reset Add-in |	=LocalizeReset() |
-Close Add-in |	=LocalizeQuit()	|
-Uninstall Add-in |	=LocalizeUninstall()	|
+On |	=Localize_On()	|
+Off | =Localize_Off() |
+| Change Color | =Localize_SetColor("#FCD220") | Hexadecimal Number
+|  | =Localize_SetColor(255)	| Color Number
+|  | =Localize_SetColor("yellow")	| Name color (yellow/ye/yl, red/re, blue, green/gr, cyan/cy, magenta/ma, white/wh/wi, black/bl/bk, orange/or, pink, purple/pu, silver/si, violet/vi, Brown/br, Beige/be)
+Change Opacity | =Localize_SetOpacity(40)	| <Number 20~255>
+On/Off Fading |	=Localize_SetFading(400) |	<miliseconds 0~4000>
+Change All |	=Localize_Set(16711680, 40, True)	| <Color, Opacity, Fading>
+Change Add-in or Book |	=Localize_Spin() |
+Reset Add-in |	=Localize_Reset() |
+Close Add-in |	=Localize_Quit()	|
+Uninstall Add-in |	=Localize_Uninstall()	|
 
 # SETUP
 
@@ -55,7 +55,7 @@ install the Add-in
 4. Click OK, to close the Add-ins window.
 
 # NOTE
-If your project has real-time working Macros VBA, then turn off LocalizeXL, to avoid collisions, by typing in the empty cell function =LocalizeOff()
+If your project has real-time working Macros VBA, then turn off LocalizeXL, to avoid collisions, by typing in the empty cell function =Localize_Off()
 
 # SCAN VIRUS
 https://www.virustotal.com/gui/
