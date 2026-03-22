@@ -4,7 +4,7 @@ Highlights the orientation of the selected cell in Excel Worksheet (Window  Only
 [Nhấn tải LocalizeXL](https://github.com/SanbiVN/LocalizeXL/releases/download/localize_xl/LocalizeXL_v1.73.zip) 
 [![Tổng tải xuống](https://img.shields.io/github/downloads/SanbiVN/LocalizeXL/total.svg)](https://github.com/SanbiVN/LocalizeXL/releases/download/localize_xl/LocalizeXL_v1.73.zip)
 
-[Nhấn tải ZenCel (phiên bản mới 2026)](https://github.com/SanbiVN/LocalizeXL/releases/download/ZenCel_v1.0/ZenCel.xlam) 
+[Nhấn tải ZenCel (phiên bản mới 2026)](https://github.com/SanbiVN/LocalizeXL/releases/download/ZenCel_v1.3/ZenCel_v1.3.zip) 
 
 
 Lưu ý: Sau khi tải về cần bỏ Unblock tệp xlam trước khi cài đặt vào Add-in Excel
